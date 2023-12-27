@@ -75,7 +75,7 @@ Client only:
 npm run serve
 ```
 
-### build
+### tauri build
 
 View [Tauri building](https://tauri.app/v1/guides/building/linux#cross-compiling-tauri-applications-for-arm-based-devices).
 
@@ -90,9 +90,12 @@ export PKG_CONFIG_SYSROOT_DIR=/usr/aarch64-linux-gnu/
 npm run build:arm
 ```
 
-### upload arduino sketch
+### arduino build
 
-The `src-arduino` will get compiled and upload to the Arduino board.
+The `src-arduino` will get compiled and upload to the Arduino board.  
+`avrdude` is used to compile for Arduino boards.
+
+Please follow this tutorial for setup: https://blog.logrocket.com/complete-guide-running-rust-arduino/
 
 ```sh
 npm run upload:arduino
@@ -122,3 +125,4 @@ Some "logs" are printed in serial monitor (e.g VSCode):
 - [Tauri](https://tauri.app/)
 - [VueJS 3](https://vuejs.org/)
 - [Vuetify 3](https://vuetifyjs.com/en/)
+- [Rust for Arduino tutorial](https://blog.logrocket.com/complete-guide-running-rust-arduino/)
