@@ -28,9 +28,19 @@ For `aarch64` compilation, additional packages are also required: https://tauri.
 Default serial port used is `/dev/ttyACM0`.  
 This can be changed in `main.rs`.
 
-### arduino
+---
+---
+
+# arduino
 
 Upload the script from `arduino/arduino.ino` to an Arduino board.
+
+### board schema
+
+In `arduino/arduino.ino`, the **GPIO** pin `#2` is used.  
+
+![image](https://github.com/JimJ92120/raspberry-pi-arduino-serial-tauri/assets/57893611/79483a27-91bd-4938-8844-e3441934528d)
+
 
 ---
 
