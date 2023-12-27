@@ -1,6 +1,6 @@
 # raspberry-pi-arduino-serial-tauri
 
-Project is an example with Tauri (`VueJS` + `Vuetify`)
+Project is an example with Tauri (`VueJS` + `Vuetify`) as Desktop app to communicate with an Arduino in Serial.  
 
 ---
 
