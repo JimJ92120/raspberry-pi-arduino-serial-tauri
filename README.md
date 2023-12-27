@@ -38,7 +38,8 @@ Please check Tauri documentation for additional packages: https://tauri.app/
 
 For `aarch64` compilation, additional packages are also required: https://tauri.app/v1/guides/building/linux#cross-compiling-tauri-applications-for-arm-based-devices
 
-For Arduino compilation and build from `Rust`, follow this tutorial: https://blog.logrocket.com/complete-guide-running-rust-arduino/
+For Arduino compilation and build from `Rust`, follow this tutorial: https://blog.logrocket.com/complete-guide-running-rust-arduino/  
+To consume Arduino `C++` librairies (from Arduino **Library Manger**), follow this tutorial: https://dev.to/kgrech/five-simple-steps-to-use-any-arduino-c-library-in-a-rust-project-1k78
 
 ### setup
 
@@ -126,3 +127,4 @@ Some "logs" are printed in serial monitor (e.g VSCode):
 - [VueJS 3](https://vuejs.org/)
 - [Vuetify 3](https://vuetifyjs.com/en/)
 - [Rust for Arduino tutorial](https://blog.logrocket.com/complete-guide-running-rust-arduino/)
+- [Arduino Libraries in Rust](https://dev.to/kgrech/five-simple-steps-to-use-any-arduino-c-library-in-a-rust-project-1k78)
