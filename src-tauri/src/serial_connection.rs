@@ -1,4 +1,4 @@
-use std::sync::Mutex;
+use std::{sync::Mutex, str::Bytes};
 
 use serialport::{self, SerialPort};
 
@@ -23,10 +23,10 @@ impl SerialConnection {
         result
     }
 
-    pub fn write(&self, message: String) {
+    pub fn write(&self, bytes: &[u8]) {
         self.connection
             .lock().unwrap()
-            .write(message.as_bytes())
+            .write(bytes)
             .expect("Write failed!");
 
     }

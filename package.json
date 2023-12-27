@@ -8,7 +8,8 @@
     "preview": "vite preview",
     "tauri": "tauri",
     "build": "vite build",
-    "build:arm": "npm run tauri build --target=aarch64-unknown-linux-gnu"
+    "build:arm": "npm run tauri build --target=aarch64-unknown-linux-gnu",
+    "upload:arduino": "cd src-arduino && cargo run"
   },
   "dependencies": {
     "@mdi/font": "5.9.55",

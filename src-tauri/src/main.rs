@@ -31,7 +31,9 @@ fn greet(name: &str) -> String {
 fn write_serial(serial_connection: tauri::State<SerialConnection>, action: String) {
     // let action = String::from("Hello World");
 
-    serial_connection.write(action);
+    // let action: u8 = if "1" == action { 1 } else { 0 };
+
+    serial_connection.write(action.as_bytes());
 }
 
 
