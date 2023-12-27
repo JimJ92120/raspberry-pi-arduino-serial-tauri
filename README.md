@@ -83,6 +83,15 @@ npm run build:arm
 
 The default app will render 2 buttons to toggle a LED (on / off) via commands given through USB Serial to Arduino.
 
+![image](https://github.com/JimJ92120/raspberry-pi-arduino-serial-tauri/assets/57893611/87fbb84f-6bfa-44c1-a398-7b9d3687802f)  
+
+### serial logs
+
+Some "logs" are printed in serial monitor (e.g VSCode):  
+![image](https://github.com/JimJ92120/raspberry-pi-arduino-serial-tauri/assets/57893611/d4b145c3-94f1-4dba-a361-f2d883e824f5)
+
+
+
 ---
 
 ---
