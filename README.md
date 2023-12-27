@@ -38,6 +38,8 @@ Please check Tauri documentation for additional packages: https://tauri.app/
 
 For `aarch64` compilation, additional packages are also required: https://tauri.app/v1/guides/building/linux#cross-compiling-tauri-applications-for-arm-based-devices
 
+For Arduino compilation and build from `Rust`, follow this tutorial: https://blog.logrocket.com/complete-guide-running-rust-arduino/
+
 ### setup
 
 Default serial port used is `/dev/ttyACM0`.  
@@ -94,8 +96,6 @@ npm run build:arm
 
 The `src-arduino` will get compiled and upload to the Arduino board.  
 `avrdude` is used to compile for Arduino boards.
-
-Please follow this tutorial for setup: https://blog.logrocket.com/complete-guide-running-rust-arduino/
 
 ```sh
 npm run upload:arduino
